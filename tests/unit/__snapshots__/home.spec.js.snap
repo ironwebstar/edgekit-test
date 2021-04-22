@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld.vue should render correctly 1`] = `
+<div class="login flex column">
+  <p class="text-h2--max">Log in</p>
+  <p class="text-h2--max">with EdgeKit</p>
+  <div class="flex row email input-wrapper"><input class="input" placeholder="Work email">
+    <!--v-if-->
+  </div>
+  <div class="flex row password input-wrapper"><input class="input" placeholder="Password">
+    <div class="input-context">
+      <!--v-if-->
+      <div class="text-primary">Forgot password?</div>
+    </div>
+  </div>
+  <div class="flex row password input-wrapper"><button type="submit" class="btn btn-login"> Log in </button></div>
+</div>
+`;
